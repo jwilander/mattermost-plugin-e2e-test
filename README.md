@@ -18,3 +18,5 @@ Below is a list of components this plugin covers and their corresponding HTML id
 * Root - id='e2e_plugin_component_root'
 * ChannelHeaderButton - id='e2e_plugin_component_channel_header_button'
 * MobileChannelHeaderButton - id='e2e_plugin_component_mobile_channel_header_button'
+
+For information on what these components are overriding, [see the web app plugin reference](https://developers.mattermost.com/extend/plugins/webapp/reference/#pluggable-components).
