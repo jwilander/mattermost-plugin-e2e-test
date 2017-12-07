@@ -1,0 +1,8 @@
+{
+    "id": "e2e-test-plugin",
+    "name": "e2e-test-plugin",
+    "description": "Plugin for use in end to end testing",
+    "webapp": {
+        "bundle_path": "/static/e2e-test-plugin_bundle.js"
+    }
+}
