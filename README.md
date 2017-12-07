@@ -1,19 +1,20 @@
-# README for e2e-test-plugin
+# mattermost-e2e-test-plugin
 
-Add README information regarding your plugin here.
+This plugin is used by the end-to-end tests to confirm that all pluggable components are being added correctly.
 
-## Template
+## Build
 
-Description of the plugin specific files.
+To build the plugin, clone this repo and run `make build`. That will deposit a `e2e-test-plugin.tar.gz` in the `./dist` directory.
 
-### plugin.json
+## Release
 
-Metadata for your plugin that the Mattermost server will read. Feel free to modify the values but do not change the structure.
+If you just want the already built plugin, grab it from the GitHub releases.
 
-### Makefile
+## Component IDs
 
-A pre-built Makefile containing some useful commands:
+Below is a list of components this plugin covers and their corresponding HTML ids.
 
-* `make build` - Build your plugin for distribution
-* `make check-style` - Check the style of your plugin's code
-* `make clean` - Clean temporary files, old distributables, etc.
+* ProfilePopover - id='e2e_plugin_component_profile_popover'
+* Root - id='e2e_plugin_component_root'
+* ChannelHeaderButton - id='e2e_plugin_component_channel_header_button'
+* MobileChannelHeaderButton - id='e2e_plugin_component_mobile_channel_header_button'
